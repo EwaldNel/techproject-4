@@ -1,0 +1,22 @@
+/*---Images---*/
+
+.img { 
+&-avatar {
+    @include image-layout {
+    max-height: 100%;
+    }
+  }
+  
+  &-frame {
+    @include image-layout {
+    padding: 13px;
+    border: 1px solid $image-border-color;
+    }
+  }
+  
+  &-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
